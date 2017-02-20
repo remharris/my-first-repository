@@ -1,3 +1,3 @@
 # Notes
 
-1. ![day_001.md](Day 1)
+1. ![Day 1](day_001.md)

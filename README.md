@@ -1,6 +1,6 @@
 # my-first-repository
 
 ## Table of Contents
-1. ![notes/README.md](Notes)
-2. ![examples/README.md](Examples)
-3. ![exercises/README.md](Exercises)
+1. ![Notes](notes/README.md)
+2. ![Examples](examples/README.md)
+3. ![Exercises](exercises/README.md)
