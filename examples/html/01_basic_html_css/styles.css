@@ -24,6 +24,14 @@ header a {
   color: black;
 }
 
+footer {
+  background: goldenrod;
+  border-top: 1px solid #000;
+  color: #fff;
+  font-family: sans-serif;
+  padding: 8px;
+}
+
 main {
   background: steelblue;
   border-top: 1px solid #fff;
@@ -36,4 +44,9 @@ main section {
 
 main h2 {
   margin: 0;
+}
+
+th, tr {
+  padding: 6px;
+  text-align: center;
 }
