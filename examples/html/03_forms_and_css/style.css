@@ -1,0 +1,66 @@
+/*
+  font-family: 'Griffy', cursive;
+  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Anonymous Pro', monospace;
+*/
+
+html {
+  background-color: tan;
+  color: maroon;
+  font-family: 'Griffy', cursive;
+  font-size: 24px;
+}
+
+body {
+  background-color: white;
+  margin: 0 auto;
+  max-width: 640px;
+  padding: 1.5rem;
+}
+
+form {
+  background-color: #cef;
+  color: black;
+  font-family: 'Anonymous Pro', monospace;
+  padding: 8px;
+}
+
+.container {
+  border: 1px solid blue;
+  margin: 0 auto;
+  overflow: hidden;
+  width: 480px;
+}
+
+.contained {
+  float: left;
+  padding: 2.5%;
+  text-align: center;
+  width: 20%;
+}
+
+.contained:nth-of-type(2n) {
+  background: orange;
+}
+
+.contained:nth-of-type(2n+1) {
+  background: red;
+}
+
+input, label {
+  display: block;
+}
+
+input, textarea {
+  margin-bottom: 12px;
+  padding: 4px;
+  width: 100%;
+}
+
+label {
+  margin-bottom: 4px;
+}
+
+#something {
+
+}
