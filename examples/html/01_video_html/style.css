@@ -1,0 +1,60 @@
+html {
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+body {
+  background-color: #f00;
+  color: #fff;
+  margin: 0;
+}
+
+main {
+  padding: 1rem;
+}
+
+header {
+  background-color: #c00;
+  box-shadow: 1px 1px 2px black;
+  padding: 0.5rem;
+}
+
+form {
+  background: #f33;
+  box-shadow: 0 1px 4px black;
+  margin: 2rem auto;
+  padding: 0.5rem;
+  width: 50%;
+}
+
+label, input {
+  display: block;
+}
+
+label {
+  margin-bottom: 0.3rem;
+}
+
+input {
+  background-color: #840000;
+  border: none;
+  color: #eee;
+  font-size: 18px;
+  margin-bottom: 1rem;
+  padding: 4px;
+  width: 100%;
+}
+
+input[type="submit"] {
+  background-color: white;
+  color: #840000;
+}
+
+input[type="submit"]:hover {
+  box-shadow: 0 2px 1px black;
+}
+
+
+.logo {
+  font-size: 1.5rem; /* currently 1.5 * 18px, or 27px */
+}
