@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+}
+
+#background {
+  background-image: url('coworking.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  filter: blur(5px) grayscale(80%) opacity(75%);
+}
+
+#content {
+  left: 0;
+  min-height: 100vh;
+  padding: 1rem 2rem 100px;
+  position: absolute;
+  top: 0;
+}
+
+#move-me {
+  border: 1px solid red;
+  padding: 2rem;
+  position: relative;
+  top: 50px;
+  width: 250px;
+}
+
+#child-move-me {
+  background-color: yellow;
+  left: 10px;
+  padding: 2rem;
+  position: absolute;
+  top: 10px;
+}
+
+footer {
+  background-color: #ddd;
+  box-shadow: 0 -3px 3px -3px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  overflow: auto;
+}
+
+footer h3 {
+  margin-left: 2rem;
+  float: left;
+}
+
+footer ul {
+  float: right;
+  margin-right: 2rem;
+  list-style: none;
+  padding: 0;
+}
+
+footer li {
+  float: left;
+  padding: 0.5rem;
+}
+
+footer li:hover {
+  background: #eee;
+  cursor: pointer;
+}
+
+footer li + li {
+  border-left: 1px solid black;
+}
+
+p + p {
+  border-top: 1px solid gold;
+  padding-top: 8px;
+}
+
+button + p {
+  font-family: fantasy;
+}
+
+button:hover + p {
+  font-size: 1.2rem;
+}
+
+button:hover ~ p {
+  color: red;
+}
