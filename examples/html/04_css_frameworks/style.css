@@ -1,0 +1,30 @@
+.u-top-space {
+  margin-top: 1rem;
+}
+
+.primary.dark {
+  background-color: #0097A7;
+}
+.primary {
+  background-color: #00BCD4;
+  color: #212121;
+}
+.primary.light {
+  background-color: #B2EBF2;
+}
+
+.accent {
+  background-color: #FFC107;
+  color: #757575;
+}
+
+header {
+  border-bottom: 1px solid #BDBDBD;
+  margin-bottom: 1rem;
+}
+
+footer {
+  border-top: 1px solid #BDBDBD;
+  margin-top: 1rem;
+  padding-top: 1rem;
+}
