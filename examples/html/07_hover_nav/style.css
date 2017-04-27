@@ -1,0 +1,89 @@
+* {
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+body {
+
+}
+
+ul {
+  list-style: none;
+}
+
+/* Dropdown menus */
+
+header {
+  background-color: forestgreen;
+}
+
+#logo {
+  font-size: 48px;
+}
+
+#navigation {
+
+}
+
+.main-menu {
+
+}
+
+.main-menu > li {
+
+}
+
+.main-menu >
+
+/* Accordion */
+
+#accordion {
+  width: 400px;
+}
+
+.compartment {
+  border: 1px solid grey;
+}
+
+.compartment + .compartment {
+  border-top: 0;
+}
+
+.compartment h3 {
+  border-bottom: 1px solid grey;
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+}
+
+.compartment:hover h3 {
+  box-shadow: 0 3px 5px -3px grey;
+}
+
+.compartment ul {
+  height: 0;
+  overflow: hidden;
+}
+
+.compartment:hover > ul {
+  height: auto;
+}
+
+.compartment:hover > h3 {
+  background-color: #eee;
+}
+
+.compartment li {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+.compartment li:hover {
+  background-color: #ddd;
+}

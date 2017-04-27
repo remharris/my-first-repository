@@ -1,0 +1,103 @@
+* {
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: sans-serif;
+  font-size: 1.5vw;
+}
+
+body {
+  padding-top: 2rem;
+}
+
+.card {
+  box-shadow: 0 4px 12px -2px black;
+  margin: 0 auto;
+  width: 30vw;
+}
+
+.card > .card-title, .card > .card-actions {
+  padding: 0.5rem 1rem;
+}
+
+.card > .card-content {
+  background: #fcfcfc;
+  padding: 1rem;
+}
+
+.card-title {
+  background: blue;
+  color: white;
+}
+
+.card-title::after {
+  clear: both;
+  content: '';
+  display: block;
+}
+
+.card-title > h2 {
+  float: left;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+
+.card-title > .avatar {
+  background: lightblue;
+  border-radius: 50%;
+  float: right;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.card-title > .author {
+  float: right;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.card-content {
+
+}
+
+.card-content > h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.3rem;
+}
+
+.card-content > p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card-content > p:last-of-type {
+  margin-bottom: 0;
+}
+
+.card-actions {
+  background: blue;
+}
+
+.card-actions::after {
+  clear: both;
+  content: '';
+  display: block;
+}
+
+.card-actions > button {
+  background: white;
+  float: right;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+  padding: 0.25rem 0.5rem;
+}
+
+.card-actions > button:hover {
+  background: red;
+  color: white;
+}

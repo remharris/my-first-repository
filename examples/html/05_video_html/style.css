@@ -1,0 +1,66 @@
+html {
+  font-size: 2.5vw;
+}
+
+body {
+  background: #111;
+  margin: 0;
+}
+
+#left, #right, #bottom-image, #bottom-content {
+  position: absolute;
+}
+
+#left {
+  background-color: #111;
+  color: #4af626;
+  font-family: 'VT323', monospace;
+  height: 55vh;
+  left: 0;
+  padding: 2.5vh 2.5vw;
+  top: 0;
+  width: 20vw;
+}
+
+#left h4 {
+  font-size: 5vh;
+  margin: 0 0 0.5em;
+}
+
+#left h5 {
+  font-size: 4vh;
+  text-align: right;
+  margin: 0 0 1.25em;
+}
+
+#right {
+  background-color: #176704;
+  height: 60vh;
+  left: 25vw;
+  top: 0;
+  width: 75vw;
+}
+
+#bottom-image, #bottom-content {
+  height: 40vh;
+  left: 0;
+  top: 60vh;
+  width: 100vw;
+}
+
+#bottom-image {
+  background-image: url('table.jpg');
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(25%);
+}
+
+#bottom-content {
+  color: white;
+  filter: drop-shadow(5px 5px 3px deeppink) drop-shadow(-2px -2px 3px black);
+  font-family: 'Pacifico', cursive;
+  font-size: 16vh;
+  font-weight: 400;
+  line-height: 40vh;
+  text-align: center;
+}

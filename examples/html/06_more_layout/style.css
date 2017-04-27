@@ -1,0 +1,105 @@
+* {
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  background-color: #efefef;
+}
+
+header {
+  background-color: #ffffff;
+  margin: 0 auto;
+  overflow: hidden;
+  width: 960px;
+}
+
+#logo {
+  float: left;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 1rem;
+}
+
+#logo > h2 {
+  font-size: 48px;
+  text-align: center;
+}
+
+#logo > h2::first-letter {
+  color: lightblue;
+}
+
+#logo > h3 {
+  font-size: 16px;
+  text-align: center;
+}
+
+nav {
+  width: 710px;
+  float: right;
+}
+
+#user-nav {
+  border-bottom: 1px solid #cccccc;
+  overflow: hidden;
+  padding: 0.5em;
+}
+
+#user-nav > div {
+  border-left: 1px solid #cccccc;
+  color: #444444;
+  float: right;
+  font-family: "Sarala", sans-serif;
+  font-size: 20px;
+  line-height: 1;
+  padding: 0.5em;
+}
+
+#user-nav > div:last-of-type {
+  border-left: 0;
+  color: #222222;
+}
+
+#user-nav > div > i {
+  color: orange;
+  font-size: 20px;
+  line-height: 1;
+  vertical-align: bottom;
+}
+
+#site-nav {
+  overflow: hidden;
+}
+
+#site-links {
+  float: left;
+  width: 60%;
+}
+
+#search-bar {
+  float: right;
+  margin-right: 10px;
+  padding: 0.5rem;
+}
+
+#search-bar > input {
+  background-color: white;
+  border: 1px solid #cccccc;
+  font-family: "Sarala", sans-serif;
+  font-size: 16px;
+  padding: 0.25rem 0.5rem;
+}
+
+#search-bar > input[type='text'] {
+  border-right: 0;
+}
+
+#search-bar > input[type='submit'] {
+
+}
