@@ -1,0 +1,53 @@
+* {
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: #222;
+  color: #eee;
+  font-family: 'Delius Unicase';
+  font-size: 18px;
+}
+
+.click-widget {
+  background: #ccc;
+  color: #222;
+  padding: 1rem;
+  width: 360px;
+}
+
+.widget-header {
+  margin-bottom: 1rem;
+}
+
+.widget-header > h3 {
+  text-align: center;
+}
+
+.widget-header > button, .widget-actions > button {
+  background: orange;
+  display: block;
+  font-family: monospace;
+  margin: 0 auto;
+  padding: 0.25rem 0.5rem;
+}
+
+.widget-header > button:hover {
+  cursor: pointer;
+}
+
+
+.widget-body {
+
+}
+
+.widget-body > p {
+
+}
+
+.widget-counter {
+
+}

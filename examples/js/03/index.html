@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <!-- We link the stylesheet here so it applies to everything in the body -->
+    <link href="https://fonts.googleapis.com/css?family=Delius+Unicase" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>What's up?</h1>
+
+    <div class="click-widget">
+      <div class="widget-header">
+        <h3>Click on this!</h3>
+        <button>HERE HERE HERE CLICK ME</button>
+      </div>
+      <div class="widget-body">
+        <!-- That 0 below would've been fine without the span, but with it we can grab just the 0 out from the text. -->
+        <p>
+          You have clicked the button
+          <span class="widget-counter">0</span>
+          times.
+        </p>
+      </div>
+      <div class="widget-actions">
+        <button>RESET COUNTER</button>
+      </div>
+    </div>
+    <!-- We link the script here so it waits for the body to load first -->
+    <script src="app.js"></script>
+  </body>
+</html>
