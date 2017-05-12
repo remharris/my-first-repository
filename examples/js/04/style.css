@@ -1,0 +1,39 @@
+#wizard {
+  background: #ddd;
+  border: 1px solid black;
+  box-shadow: 0 6px 6px -2px #cce;
+  width: 400px;
+}
+
+.content {
+  padding: 1rem;
+}
+
+.content div {
+  display: none;
+}
+
+.content div.active {
+  display: block;
+}
+
+.navigation {
+  overflow: auto;
+  padding: 1rem;
+}
+
+.navigation button {
+  background: #222;
+  color: #ddd;
+  display: none;
+  font-size: 16px;
+  padding: 0.3em 1.2em;
+}
+
+.navigation button.active {
+  display: inline-block;
+}
+
+button.next, button.accept {
+  float: right;
+}
